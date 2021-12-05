@@ -1,0 +1,2 @@
+rootProject.name = "WalpapersAPK"
+include ':app'
