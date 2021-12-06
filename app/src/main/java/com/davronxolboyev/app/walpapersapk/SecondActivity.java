@@ -132,6 +132,7 @@ public class SecondActivity extends AppCompatActivity {
         images2 = new ArrayList<>();
         switch (id) {
             case 0: {
+                //sport
                 images2.add(R.drawable.sport1);
                 images2.add(R.drawable.sport2);
                 images2.add(R.drawable.sport3);
@@ -149,6 +150,7 @@ public class SecondActivity extends AppCompatActivity {
                 break;
             }
             case 1: {
+                //anime
                 images2.add(R.drawable.anime);
                 images2.add(R.drawable.anime1);
                 images2.add(R.drawable.anime2);
@@ -215,14 +217,53 @@ public class SecondActivity extends AppCompatActivity {
             }
             case 4: {
                 //dark
+                images2.add(R.drawable.darkmood);
+                images2.add(R.drawable.darkmood1);
+                images2.add(R.drawable.darkmood2);
+                images2.add(R.drawable.darkmood3);
+                images2.add(R.drawable.darkmood4);
+                images2.add(R.drawable.darkmood5);
+                images2.add(R.drawable.darkmood6);
+                images2.add(R.drawable.darkmood7);
+                images2.add(R.drawable.darkmood8);
+                images2.add(R.drawable.darkmood9);
+                images2.add(R.drawable.darkmood10);
                 break;
             }
             case 5: {
                 //marvel
+                images2.add(R.drawable.marvel1);
+                images2.add(R.drawable.marvel2);
+                images2.add(R.drawable.marvel3);
+                images2.add(R.drawable.marvel4);
+                images2.add(R.drawable.marvel5);
+                images2.add(R.drawable.marvel6);
+                images2.add(R.drawable.marvel7);
+                images2.add(R.drawable.marvel8);
+                images2.add(R.drawable.marvel9);
+                images2.add(R.drawable.marvel10);
+                images2.add(R.drawable.marvel11);
+                images2.add(R.drawable.marvel12);
+                images2.add(R.drawable.marvel13);
+                images2.add(R.drawable.marvel14);
+                images2.add(R.drawable.marvel15);
                 break;
             }
             case 6: {
                 //galaxy
+                images2.add(R.drawable.galaxy);
+                images2.add(R.drawable.galaxy1);
+                images2.add(R.drawable.galaxy2);
+                images2.add(R.drawable.galaxy3);
+                images2.add(R.drawable.galaxy4);
+                images2.add(R.drawable.galaxy5);
+                images2.add(R.drawable.galaxy6);
+                images2.add(R.drawable.galaxy7);
+                images2.add(R.drawable.galaxy8);
+                images2.add(R.drawable.galaxy9);
+                images2.add(R.drawable.galaxy10);
+                images2.add(R.drawable.galaxy11);
+                images2.add(R.drawable.galaxy12);
                 break;
             }
             case 7: {
@@ -286,7 +327,6 @@ public class SecondActivity extends AppCompatActivity {
                 images2.add(R.drawable.cartoon12);
                 break;
             }
-
         }
     }
 
@@ -337,6 +377,7 @@ public class SecondActivity extends AppCompatActivity {
                 images.add("https://i.pinimg.com/236x/7a/86/40/7a86407aaa7fb8644a5586c66a89d304.jpg");
                 images.add("https://i.pinimg.com/236x/1d/85/7f/1d857f36cda7a6639958f6a2d79b28e1.jpg");
                 images.add("https://i.pinimg.com/236x/dd/22/de/dd22deb18fd11f129a05d035b5f02c7b.jpg");
+                images.add("https://i.pinimg.com/236x/97/ea/43/97ea4346701d345f54cf804ea00dc9f1.jpg");
                 images.add("https://i.pinimg.com/236x/73/ad/b5/73adb55978e006039412ac20a9ef1aac.jpg");
                 images.add("https://i.pinimg.com/236x/7f/6f/d1/7f6fd1a3938151cb4dcc40c3880bcda3.jpg");
                 images.add("https://i.pinimg.com/236x/fb/5a/67/fb5a6719cc48c630636f0c120bef1e29.jpg");
