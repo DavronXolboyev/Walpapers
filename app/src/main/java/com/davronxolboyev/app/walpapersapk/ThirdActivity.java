@@ -35,10 +35,10 @@ public class ThirdActivity extends AppCompatActivity {
         imageView = findViewById(R.id.getImage);
         if (id == 1) {
             imageView.setImageResource(bundle.getInt("image"));
-        } else if (bundle.getInt("page_d") == 2){
-            Log.d("TAG->IMAGE", "onCreate: "+bundle.getString("image_drawable"));
+        } else if (bundle.getInt("page_d") == 2) {
+            Log.d("TAG->IMAGE", "onCreate: " + bundle.getString("image_drawable"));
             imageView.setImageDrawable((Drawable) bundle.getParcelable("image_drawable"));
-        }else {
+        } else {
             Picasso.with(this).load(bundle.getString("image")).placeholder(R.drawable.noimage).into(imageView);
         }
 

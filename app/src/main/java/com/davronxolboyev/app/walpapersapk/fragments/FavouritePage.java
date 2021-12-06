@@ -40,15 +40,22 @@ public class FavouritePage extends Fragment {
     }
 
     public static void addImage(Drawable drawable) {
+        Log.d("Size", "addImage: " + favourites.size());
+        boolean b = true;
         if (!favourites.isEmpty()){
             for (int i = 0; i < favourites.size(); i++) {
-                if (!drawable.equals(favourites.get(i)))
-                    favourites.add(drawable);
+                if (drawable.equals(favourites.get(i)))
+                {
+                    b = false;
+                    break;
+                }
             }
-        }else {
+        }
+        if (b){
             favourites.add(drawable);
         }
-        Log.d("Size", "addImage: " + favourites.size());
+        Log.d("Size2", "addImage: " + favourites.size());
+
     }
 
     public static void showImages() {

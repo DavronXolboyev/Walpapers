@@ -722,9 +722,7 @@ public class SecondActivity extends AppCompatActivity {
 
             default:
                 break;
-
         }
-
     }
 
 
